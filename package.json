@@ -1,0 +1,35 @@
+{
+  "name": "starter-code",
+  "version": "1.0.0",
+  "description": "",
+  "main": "players-schema.js",
+  "scripts": {
+    "test": "jest --verbose",
+    "test-watch": "jest --watchAll --verbose",
+    "start": "node index.js",
+    "lint": "eslint './memory.js' --fix",
+    "jsdoc": "jsdoc -c ./docs/config/jsdoc.config.json"
+  },
+  "jest": {
+    "testEnvironment": "node"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "eslint": "^6.5.1",
+    "lint": "^0.7.0",
+    "uuid": "^3.3.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sarahduv/401-lab-04.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sarahduv/401-lab-04/issues"
+  },
+  "homepage": "https://github.com/sarahduv/401-lab-04#readme",
+  "devDependencies": {
+    "jest": "^24.9.0"
+  }
+}
